@@ -29,11 +29,6 @@ while(1)
     {
         chargeBattery(&battery);
         displayBattery(battery);
-
-        if(battery.soc < 20)
-        {
-            printf("\n Battery Low! Charging Required.\n");
-        }
     }
 
     else if(choice == 2)
