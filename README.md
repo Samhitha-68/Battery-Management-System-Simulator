@@ -1,8 +1,6 @@
 # 🔋 Battery Management System (BMS) Simulator in C
 
-A simple Battery Management System (BMS) Simulator developed in C to understand the core working principles of a Battery Management System used in Electric Vehicles (EVs) and battery-powered devices.
-
-This project simulates battery charging, discharging, battery monitoring, and basic battery protection mechanisms through a menu-driven console application.
+A menu-driven Battery Management System (BMS) Simulator developed in C to simulate battery charging, discharging, battery monitoring, and basic protection mechanisms. This project was created to understand the fundamental concepts of Battery Management Systems and strengthen modular programming in C.
 
 ---
 
