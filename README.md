@@ -1,79 +1,62 @@
-# 🔋 Battery Management System (BMS) Simulator in C
+# Battery Management System (BMS) Simulator
 
-A menu-driven Battery Management System (BMS) Simulator developed in C to simulate battery charging, discharging, battery monitoring, and basic protection mechanisms. This project was created to understand the fundamental concepts of Battery Management Systems and strengthen modular programming in C.
+## Overview
 
----
+This project is a Battery Management System (BMS) Simulator developed in C. It simulates the basic operation of a lithium-ion battery by monitoring battery parameters and implementing essential safety features used in real Battery Management Systems.
 
-## 📌 Project Objectives
-
-- Simulate battery charging and discharging.
-- Monitor important battery parameters.
-- Implement basic battery protection features.
-- Improve C programming skills using modular programming.
-- Understand the working of a Battery Management System.
+The project was developed as part of Embedded Systems learning to understand battery monitoring, charging, discharging, and protection logic.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔹 Battery Charging
-- Increases State of Charge (SoC).
-- Updates battery voltage.
-- Stops charging automatically when the battery reaches 100%.
-
-### 🔹 Battery Discharging
-- Decreases State of Charge (SoC).
-- Reduces battery voltage.
-- Prevents the battery from discharging below 0%.
-
-### 🔹 Battery Monitoring
-Displays:
-- State of Charge (SoC)
-- Battery Voltage
-- Battery Current
-- Battery Temperature
-- Charging Status
-- State of Health (SoH)
-
-### 🔹 Temperature Simulation
-- Battery temperature increases while charging.
-- Battery temperature decreases during discharging (up to room temperature).
-
-### 🔹 Battery Protection
-- Overcharge Protection
-- Over-discharge Protection
-- Over-temperature Protection
-- Low Battery Warning
-- Critical Battery Warning
+- Battery charging simulation
+- Battery discharging simulation
+- State of Charge (SoC) monitoring
+- Battery voltage monitoring
+- Battery temperature monitoring
+- Charging status indication
+- State of Health (SoH) tracking
+- Charge cycle counting
+- Low battery warning
+- Critical battery warning
+- Over-temperature protection
+- Error logging
+- Battery reset option
+- Menu-driven interface
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - C Programming
-- GCC Compiler
 - Visual Studio Code
 - Git
 - GitHub
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-01_BMS_Simulator
+01_BMS_Simulator/
 │
 ├── main.c
 ├── battery.c
 ├── battery.h
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
-Compile:
+1. Clone the repository.
+2. Open the project in Visual Studio Code.
+3. Compile the program.
+
+Example:
 
 ```bash
 gcc main.c battery.c -o bms
@@ -85,9 +68,15 @@ Run:
 ./bms
 ```
 
+(On Windows)
+
+```bash
+bms.exe
+```
+
 ---
 
-## 📋 Menu Options
+## Sample Menu
 
 ```
 ========= BMS MENU =========
@@ -95,68 +84,25 @@ Run:
 1. Charge Battery
 2. Discharge Battery
 3. View Battery Status
-4. Exit
+4. Reset Battery
+5. Exit
 ```
 
 ---
 
-## 📈 Current Implementation
+## Future Enhancements
 
-✅ Menu-driven program
-
-✅ Charging simulation
-
-✅ Discharging simulation
-
-✅ State of Charge (SoC)
-
-✅ Voltage update
-
-✅ Temperature simulation
-
-✅ Battery status display
-
-✅ Overcharge protection
-
-✅ Over-discharge protection
-
-✅ Over-temperature protection
-
-✅ Low battery warning
-
-✅ Critical battery warning
+- Battery current simulation
+- Battery percentage graph
+- Charging time estimation
+- File-based data logging
+- Sensor integration using Arduino/ESP32
+- LCD or OLED display support
 
 ---
 
-## 🚀 Future Enhancements
-
-- Battery Health (SoH) calculation
-- Charge cycle counting
-- Error logging
-- Battery ageing simulation
-- Data logging to file
-- Graphical dashboard
-- Embedded implementation using Arduino/STM32
-
----
-
-## 🎯 What I Learned
-
-Through this project, I gained practical experience in:
-
-- Modular programming in C
-- Functions and structures
-- Pointer-based function implementation
-- Battery Management System (BMS) concepts
-- Battery protection logic
-- Git and GitHub version control
-
----
-
-## 👩‍💻 Author
+## Author
 
 **Samhitha**
 
-Pre-final Year B.E. Electronics and Communication Engineering (ECE)
-
-Aspiring Embedded Systems Engineer
+Pre-final Year Electronics and Communication Engineering (ECE)
