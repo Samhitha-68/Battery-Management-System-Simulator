@@ -103,6 +103,6 @@ bms.exe
 
 ## Author
 
-**Samhitha**
+**Samhitha S**
 
 Final Year Electronics and Communication Engineering (ECE)
