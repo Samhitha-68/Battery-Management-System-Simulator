@@ -105,4 +105,4 @@ bms.exe
 
 **Samhitha**
 
-Pre-final Year Electronics and Communication Engineering (ECE)
+Final Year Electronics and Communication Engineering (ECE)
