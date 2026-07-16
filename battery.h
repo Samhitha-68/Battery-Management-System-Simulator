@@ -8,10 +8,13 @@ typedef struct{
     float temperature;
     int isCharging;
     int soh;            //State of health
+    int chargeCycles;
+    char lastError[50];
 }Battery;
 
 void displayBattery(Battery battery);
 void chargeBattery(Battery *battery);
 void dischargeBattery(Battery *battery);
+void resetBattery(Battery *battery);
 
 #endif
